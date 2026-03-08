@@ -23,8 +23,8 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "Stefan Pollok"
 description              : "An amazing website for our wedding."
 url                      : "https://stefanpollok.github.io"
-baseurl                  : "/minimal-wedding"
-repository               : "stefanpollok/minimal-wedding"
+baseurl                  : "/js-wedding"
+repository               : "stefanpollok/js-wedding"
 teaser                   : "/assets/images/logo-broby-gamle-skole.jpeg"
 logo                     : "/assets/images/logo-hearts.jpeg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
