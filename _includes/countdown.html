@@ -9,13 +9,21 @@
     var days = Math.ceil((wedding - now) / msPerDay);
     var el = document.getElementById("wedding-countdown");
     if (days > 1) {
-      el.textContent = "Only " + days + " days to go!";
+      el.innerHTML = '<span class="lang-en">Only ' + days + ' days to go!</span>'
+                   + '<span class="lang-de">Noch ' + days + ' Tage!</span>'
+                   + '<span class="lang-dk">Kun ' + days + ' dage tilbage!</span>';
     } else if (days === 1) {
-      el.textContent = "Only 1 day to go!";
+      el.innerHTML = '<span class="lang-en">Only 1 day to go!</span>'
+                   + '<span class="lang-de">Nur noch ein Tag!</span>'
+                   + '<span class="lang-dk">Kun en dag tilbage!</span>';
     } else if (days === 0) {
-      el.textContent = "Today is the day!";
+      el.innerHTML = '<span class="lang-en">Today is the day!</span>'
+                   + '<span class="lang-de">Heute ist der Tag!</span>'
+                   + '<span class="lang-dk">I dag er dagen!</span>';
     } else {
-      el.textContent = "We are married!";
+      el.innerHTML = '<span class="lang-en">We are married!</span>'
+                   + '<span class="lang-de">Wir sind verheiratet!</span>'
+                   + '<span class="lang-dk">Vi er gift!</span>';
     }
   })();
 </script>

@@ -1,10 +1,10 @@
 # main links
 main:
   - title: "Wedding"
-    url: /wedding/
+    url: /_pages/wedding/
   - title: "Travel guide"
-    url: /travel-guide/
+    url: /_pages/travel-guide/
   - title: "Gifts"
-    url: /gifts/
+    url: /_pages/gifts/
   - title: "Our story"
-    url: /story/
+    url: /_pages/story/

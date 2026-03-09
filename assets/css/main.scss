@@ -7,3 +7,46 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+// Language switcher flags
+.lang-switcher {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: 8px;
+  flex-shrink: 0;
+}
+
+.lang-btn {
+  background: none;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.3em;
+  line-height: 1;
+  padding: 2px 3px;
+  opacity: 0.5;
+  transition: opacity 0.2s, border-color 0.2s;
+
+  &:hover {
+    opacity: 0.85;
+  }
+
+  &--active {
+    opacity: 1;
+    border-color: currentColor;
+  }
+}
+
+// Multilingual content visibility
+// Usage: wrap text in <span class="lang-en">, <span class="lang-de">, <span class="lang-dk">
+.lang-en, .lang-de, .lang-dk {
+  display: none;
+}
+
+:root[data-lang="en"] .lang-en,
+:root:not([data-lang]) .lang-en { display: inline; }
+
+:root[data-lang="de"] .lang-de { display: inline; }
+
+:root[data-lang="dk"] .lang-dk { display: inline; }
