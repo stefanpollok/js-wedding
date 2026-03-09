@@ -6,5 +6,7 @@ main:
     url: /_pages/travel-guide/
   - title: "Gifts"
     url: /_pages/gifts/
+  - title: "RVSP"
+    url: /_pages/rvsp/
   - title: "Our story"
     url: /_pages/story/
