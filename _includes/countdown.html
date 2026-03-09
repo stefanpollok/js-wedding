@@ -1,0 +1,21 @@
+<section style="text-align: center; padding: 1.5em 1em; font-size: 1.4em; font-weight: 600; color: #6c5e5e;">
+  <span id="wedding-countdown"></span>
+</section>
+<script>
+  (function () {
+    var wedding = new Date("2026-09-05T13:00:00");
+    var now = new Date();
+    var msPerDay = 1000 * 60 * 60 * 24;
+    var days = Math.ceil((wedding - now) / msPerDay);
+    var el = document.getElementById("wedding-countdown");
+    if (days > 1) {
+      el.textContent = "Only " + days + " days to go!";
+    } else if (days === 1) {
+      el.textContent = "Only 1 day to go!";
+    } else if (days === 0) {
+      el.textContent = "Today is the day!";
+    } else {
+      el.textContent = "We are married!";
+    }
+  })();
+</script>

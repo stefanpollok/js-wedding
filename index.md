@@ -7,8 +7,8 @@ header:
   overlay_color: "#6c5e5e"
   overlay_image: /assets/images/logo-broby-gamle-skole.jpeg
   actions:
-    - label: "<i class='fas fa-heart'></i> How to get there"
-      url: "/docs/quick-start-guide/"
+    - label: "<i class='fas fa-heart'></i> Here we are going to marry ..."
+      url: "/church/"
 excerpt: >
   Find all information aout our wedding here.
 feature_row:
@@ -35,4 +35,5 @@ feature_row:
     btn_label: "Learn more"
 ---
 
+{% include countdown.html %}
 {% include feature_row %}
