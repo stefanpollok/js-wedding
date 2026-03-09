@@ -2,16 +2,24 @@
   var STORAGE_KEY = "site-lang";
   var DEFAULT_LANG = "en";
 
+  function storageSave(lang) {
+    try { localStorage.setItem(STORAGE_KEY, lang); } catch (e) {}
+  }
+
+  function storageLoad() {
+    try { return localStorage.getItem(STORAGE_KEY); } catch (e) { return null; }
+  }
+
   function setLang(lang) {
     document.documentElement.setAttribute("data-lang", lang);
-    localStorage.setItem(STORAGE_KEY, lang);
+    storageSave(lang);
     document.querySelectorAll(".lang-btn").forEach(function (btn) {
       btn.classList.toggle("lang-btn--active", btn.dataset.lang === lang);
     });
   }
 
   function init() {
-    var saved = localStorage.getItem(STORAGE_KEY) || DEFAULT_LANG;
+    var saved = storageLoad() || DEFAULT_LANG;
     setLang(saved);
 
     document.querySelectorAll(".lang-btn").forEach(function (btn) {
