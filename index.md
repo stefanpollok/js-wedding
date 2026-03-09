@@ -8,7 +8,7 @@ header:
   overlay_image: /assets/images/logo-broby-gamle-skole.jpeg
   actions:
     - label: "<i class='fas fa-heart'></i> Here we are going to marry ..."
-      url: "/church/"
+      url: "/pages/church/"
 excerpt: >
   Find all information aout our wedding here.
 feature_row:
@@ -16,21 +16,21 @@ feature_row:
     alt: "customizable"
     title: "Travel guide"
     excerpt: "Everything from location to things to in the beautiful area around."
-    url: "/travel/"
+    url: "/pages/travel/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/logo-broby-gamle-skole.jpeg
     alt: "fully responsive"
     title: "Timetable"
     excerpt: "That's our schedule."
-    url: "/timetable/"
+    url: "/pages/timetable/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/logo-broby-gamle-skole.jpeg
     alt: "Gifts"
     title: "Gifts"
     excerpt: "Find a registry of our gifts for inspiration."
-    url: "/gifts/"
+    url: "/pages/gifts/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
 ---
