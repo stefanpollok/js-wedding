@@ -19,21 +19,21 @@ feature_row:
     alt: "customizable"
     title: "Travel guide"
     excerpt: "Everything from location to things to in the beautiful area around."
-    url: "/_pages/travel/"
+    url: "/_pages/travel-guide/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/logo-broby-gamle-skole.jpeg
     alt: "fully responsive"
     title: "Timetable"
     excerpt: "That's our schedule."
-    url: "/pages/timetable/"
+    url: "/_pages/timetable/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/logo-broby-gamle-skole.jpeg
-    alt: "Gifts"
-    title: "Gifts"
+    alt: "story"
+    title: 'Our story <i class="fa-solid fa-aquarius"></i> <i class="fa-solid fa-gemini" style="color: rgb(177, 151, 252);"></i>'
     excerpt: "Find a registry of our gifts for inspiration."
-    url: "/pages/gifts/"
+    url: "/_pages/gifts/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
 ---
