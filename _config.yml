@@ -26,7 +26,7 @@ url                      : "https://stefanpollok.github.io"
 baseurl                  : "/js-wedding"
 repository               : "stefanpollok/js-wedding"
 teaser                   : "/assets/images/logo-broby-gamle-skole.jpeg"
-logo                     : "/assets/images/logo-hearts-inverted.jpeg"
+logo                     : "/assets/images/logo-hearts-inverted.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
